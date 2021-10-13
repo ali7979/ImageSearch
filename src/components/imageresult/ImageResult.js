@@ -47,6 +47,7 @@ const zzz = () => {
                     
                     }
                     style={{margin:"0.2rem"}}
+                    onClick={()=>handleOpen(img.largeImageURL)}
                     >
                     <img src={img.largeImageURL} alt=""/>
                     </GridTile>
