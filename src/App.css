@@ -1,38 +1,56 @@
-.App {
-  text-align: center;
-}
+@font-face {
+  font-family:"zz" ;
+  src:url('./Summer\ Calling.ttf')
+} 
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.cntr{
+  display: grid;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.searchbox{
+  background-color: black;
   color: white;
+  text-align: center;
+ margin: 0 4rem;
+ font-family: cursive;
+ margin-top: 3rem;
+ margin-bottom: 6rem;
+ 
+ 
+  font-size: 1.5rem;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  outline: none;
+  border-bottom-style: groove;
+}
+body{
+  background-color: black;
+}
+.blue{
+  height:100%;
+  width: 100%;
+  background-color: blue;
+}
+.tiles{
+border-radius: 20px;
+
+}
+.heading{
+  color: white;
+  text-align: center;
+  font-family: "zz";
+  margin: 0 1rem;
+  
+}
+ 
+ 
+
+
+.footer{
+  color: white;
+  text-align: center;
+  color: coral;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
